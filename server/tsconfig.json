@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "module": "commonjs",
+    "importHelpers": true,
+    "removeComments": true,
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "lib": ["es2015", "es2016", "es2017", "dom"],
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": false,
+    "strictFunctionTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./",
+    "preserveSymlinks": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "types": ["node", "express", "jest"],
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    },
+    "skipLibCheck": true,
+    "useUnknownInCatchVariables": false
+  },
+  "include": ["src/**/*", "test/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "typeRoots": ["./node_modules/@types"]
+}

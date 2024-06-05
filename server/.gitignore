@@ -1,0 +1,20 @@
+# VsCode
+.vscode/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+.tags
+.tags_sorted_by_file
+
+.idea/
+
+public/
+
+# Dist
+dist/
+
+package-lock.json
+
+.env
